@@ -1,7 +1,8 @@
-print("Hello World")
-
 a = 2
-d = 3
+b = 3
+c = 4
 
-c = a + d
-print("C = ", c)
+if a < b and b < c:
+    print("B between A and C")
+else:
+    print("B not between A and C")
